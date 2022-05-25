@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.header_links {
+    display: flex;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    margin: 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 200px 90px 200px;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img {
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.card_txt {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 30px 250px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+}
+
+.author {
+    text-align:right;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 200px;
+    padding: 20px 80px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.CTA_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+
+.CTA_txt h1 {
+    font-size: 24px;
+}
+
+.CTA_txt p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
